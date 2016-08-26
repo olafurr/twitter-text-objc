@@ -96,7 +96,7 @@
 #define TWUValidMentionOrList \
     @"(" TWUValidMentionPrecedingChars @")" \
     @"(" TWUAtSigns @")" \
-    @"([a-zA-Z0-9_]{1,20})" \
+    @"([a-zA-Z0-9._]{1,100})" \
     @"(/[a-zA-Z][a-zA-Z0-9_\\-]{0,24})?"
 
 #define TWUValidReply                   @"\\A(?:[" TWUUnicodeSpaces @"])*" TWUAtSigns @"([a-zA-Z0-9_]{1,20})"
